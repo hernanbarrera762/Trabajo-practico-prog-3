@@ -26,10 +26,19 @@ h1 {
     font-size: 28px;
 }
 
-.presentacion button {
-    font-size: 14px;
-    padding: 5px 10px;
-    cursor: pointer;
+/*#####cambios en iconos para transparentar los bordes#####*/
+
+
+.boton-cambio-de-tema button {
+    background: none; 
+    border: none;
+    padding: 0;
+    cursor: pointer; 
+}
+
+#icono-tema {
+    width: 24px;
+    height: auto;
 }
 
 /*################ contenedor ##############*/
