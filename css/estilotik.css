@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color: whitesmoke;
+    background-color: transparent;
+}
+body{
+    background-color: black;
+}
+
+.contenedortres {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.giftiktok {
+    width: 300px;
+    height: auto; 
+}
+
+.giftiktok img {
+    margin-left: 400px;
+    width: 100%; 
+    height: auto; 
+}
+.Volver{
+    color: antiquewhite;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.Volver img{
+    color: antiquewhite;
+}
