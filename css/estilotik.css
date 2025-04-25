@@ -39,11 +39,13 @@ body {
     object-fit: contain;
     margin-left: 200px;
 }
+
 .imgtiktok img {
-    width: 100%;
+    width: 600px;
     height: auto;
     margin-right: 100px;
-}  
+}
+
 
 
 .Volver {
