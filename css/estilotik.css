@@ -6,27 +6,38 @@ h1 {
 
 body {
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .contenedortres {
     display: flex;
     align-items: center;
-    justify-content: center; 
-    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
 }
 
-.giftiktok, .imgtiktok {
-    width: 300px;
+.imgtiktok, .giftiktok {
+    max-width: 400px; 
+    width: 100%;
 }
 
-.giftiktok img, .imgtiktok img {
-    width: 100%; 
+.imgtiktok img, .giftiktok img {
+    width: 100%;
     height: auto;
+    display: block;
 }
 
 .Volver {
     color: antiquewhite;
     text-align: center;
-    width: 100%;
-    height: auto;
+    margin-top: 20px;
+}
+
+.Volver a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
 }
