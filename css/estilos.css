@@ -12,3 +12,10 @@ h1{
     background-color: #dddcd8;
     margin: 0;
 }
+.contenedor{
+    display: flex;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+}
