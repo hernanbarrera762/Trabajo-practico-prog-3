@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Arial';
     margin: 0;
     padding: 0;
@@ -6,29 +6,44 @@ body{
     color: #333;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 20px 0;
     background-color: #dddcd8;
     margin: 0;
 }
-.contenedor{
+
+/*################contenedor##############*/
+
+.contenedor {
     display: flex;
-    max-width: 1100px;
     margin: 20px auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+    width: 100%; /* ocupar todo el ancho */
 }
-/*columnas*/
-.columna{
+
+/*################columnas##############*/
+
+.columna {
     padding: 20px;
+    box-sizing: border-box;
 }
-.izquierda{
-    width: 35%;
+
+.izquierda {
+    width: 30%;
     background-color: #e7e6e1;
 }
-.derecha{
-    width: 75%;
+
+.derecha {
+    width: 50%;
+}
+
+/*################COLUMNA EXTRA##############*/
+
+.extra {
+    width: 50%;
+    background-color: #f0f0f0;
 }
 
 
@@ -36,94 +51,93 @@ h1{
 
 ajustes de iconos, imagen y texto*/
 
-
-.contactos img .contactos p,
-.idiomas p, .gestion p {
+.contactos p,
+.idiomas p,
+.gestion p {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.celular{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.correo{
+
+.celular,
+.correo,
+.lugar {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.correo a{
+.correo a {
     color: inherit;
     text-decoration: none;
     transition: 0.5s;
 }
 
+.lugar p {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.5s;
+}
 
-.lugar{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.lugar p:hover {
+    color: #77706e;
 }
-.lugar p{
-    color: inherit;
-    text-decoration: none;
-    transition:color 0.5s;
-}
-.lugar p:hover{
-    color:#77706e;
-}
-.lugar a{
+
+.lugar a {
     color: inherit;
     text-decoration: none;
 }
-.contactos h2{
+
+.contactos h2 {
     font-size: 24px;
 }
-.contactos p{
+
+.contactos p {
     font-size: 20px;
 }
-.contactos img{
+
+.contactos img {
     width: 20px;
     height: auto;
 }
-.perfil img{
+
+.perfil img {
     max-width: 150px;
     display: block;
     margin-top: 20px;
 }
 
 
-
 /*################GESTION E IDIOMAS##############
 
 ajustes de tamaño y espaciado en gestion e idiomas*/
 
+.gestion h2,
+.idiomas h2 {
+    font-size: 20px;
+}
 
-.gestion h2{
-    font-size: 20px;
-}
-.gestion p{
-    font-size: 20px;
-    line-height: 25px;
-}
-.idiomas h2{
-    font-size: 20px;
-}
-.idiomas p{
+.gestion p,
+.idiomas p {
     font-size: 20px;
     line-height: 25px;
 }
 
-.perfil h3{
+
+/*################PERFIL, EDUCACION, EXPERIENCIAS##############*/
+
+.perfil h3 {
     font-size: 25px;
 }
-.perfil p{
+
+.perfil p,
+.educaion p,
+.experiencias p {
     font-size: 20px;
 }
-.educaion p{
-    font-size: 20px;
-}
-.experiencias p{
-    font-size: 20px;
+.extra img{
+    width: 100%;
+    max-width: 530px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
 }
