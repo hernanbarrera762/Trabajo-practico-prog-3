@@ -19,6 +19,7 @@ h1{
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
 }
+/*columnas*/
 .columna{
     padding: 20px;
 }
@@ -27,8 +28,15 @@ h1{
     background-color: #e7e6e1;
 }
 .derecha{
-    width: 70%;
+    width: 75%;
 }
+
+
+/*################columna izquierda##############
+
+ajustes de iconos, imagen y texto*/
+
+
 .contactos img .contactos p,
 .idiomas p, .gestion p {
     margin-left: 10px;
@@ -64,4 +72,26 @@ h1{
     display: block;
     margin-top: 20px;
 }
+
+
+
+/*################GESTION E IDIOMAS##############
+
+ajustes de tamaño y espaciado en gestion e idiomas*/
+
+
+.gestion h2{
+    font-size: 20px;
 }
+.gestion p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.idiomas h2{
+    font-size: 20px;
+}
+.idiomas p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
