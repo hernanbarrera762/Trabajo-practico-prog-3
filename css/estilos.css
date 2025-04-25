@@ -27,5 +27,41 @@ h1{
     background-color: #e7e6e1;
 }
 .derecha{
-    width: 65%;
+    width: 70%;
+}
+.contactos img .contactos p,
+.idiomas p, .gestion p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.celular{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.correo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lugar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contactos h2{
+    font-size: 24px;
+}
+.contactos p{
+    font-size: 20px;
+}
+.contactos img{
+    width: 20px;
+    height: auto;
+}
+.perfil img{
+    max-width: 150px;
+    display: block;
+    margin-top: 20px;
+}
 }
