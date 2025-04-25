@@ -149,9 +149,26 @@ ajustes de tamaño y espaciado en gestion e idiomas*/
     font-size: 20px;
 }
 .extra img{
-    width: 100%;
-    max-width: 530px;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
+width: 100%;
+max-width: 530px;
+height: auto;
+display: block;
+margin-bottom: 10px;
+}
+
+/*instagram e tiktok*/
+.instagram, .tiktok {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.instagram img, .tiktok img {
+    width: 30px; 
+    height: 30px; 
+}
+
+.instagram a, .tiktok a {
+    text-decoration: none;
+    color: black;
 }
