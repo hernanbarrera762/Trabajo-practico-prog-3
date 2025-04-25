@@ -19,3 +19,13 @@ h1{
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
 }
+.columna{
+    padding: 20px;
+}
+.izquierda{
+    width: 35%;
+    background-color: #e7e6e1;
+}
+.derecha{
+    width: 65%;
+}
