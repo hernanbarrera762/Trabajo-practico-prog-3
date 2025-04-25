@@ -2,7 +2,7 @@ body {
     font-family: 'Arial';
     margin: 0;
     padding: 0;
-    background-color: #f7f6f2;
+    background-color: #726f63;
     color: #333;
 }
 
@@ -13,7 +13,26 @@ h1 {
     margin: 0;
 }
 
-/*################contenedor##############*/
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dddcd8;
+}
+
+.presentacion h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.presentacion button {
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/*################ contenedor ##############*/
 
 .contenedor {
     display: flex;
@@ -23,7 +42,7 @@ h1 {
     width: 100%; /* ocupar todo el ancho */
 }
 
-/*################columnas##############*/
+/*################ columnas ##############*/
 
 .columna {
     padding: 20px;
@@ -39,15 +58,15 @@ h1 {
     width: 50%;
 }
 
-/*################COLUMNA EXTRA##############*/
+/*################ COLUMNA EXTRA ##############*/
 
 .extra {
     width: 50%;
-    background-color: #f0f0f0;
+    background-color: #d4d4d4;
 }
 
 
-/*################columna izquierda##############
+/*################ columna izquierda ##############
 
 ajustes de iconos, imagen y texto*/
 
@@ -107,7 +126,7 @@ ajustes de iconos, imagen y texto*/
 }
 
 
-/*################GESTION E IDIOMAS##############
+/*################ GESTION E IDIOMAS ##############
 
 ajustes de tamaño y espaciado en gestion e idiomas*/
 
@@ -123,7 +142,7 @@ ajustes de tamaño y espaciado en gestion e idiomas*/
 }
 
 
-/*################PERFIL, EDUCACION, EXPERIENCIAS##############*/
+/*################ PERFIL, EDUCACION, EXPERIENCIAS ##############*/
 
 .perfil h3 {
     font-size: 25px;
