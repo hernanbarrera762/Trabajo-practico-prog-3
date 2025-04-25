@@ -15,21 +15,13 @@ body {
     gap: 10px;
 }
 
-.giftiktok {
-    width: 300px; 
+.giftiktok, .imgtiktok {
+    width: 300px;
 }
 
-.giftiktok img {
+.giftiktok img, .imgtiktok img {
     width: 100%; 
     height: auto;
-    display: flex;
-}
-
-.imgtiktok img {
-    width: 100%; 
-    height: auto;
-    max-width: 1000px;
-    display: flex;
 }
 
 .Volver {
@@ -37,8 +29,4 @@ body {
     text-align: center;
     width: 100%;
     height: auto;
-}
-
-.Volver img {
-    color: antiquewhite;
 }
