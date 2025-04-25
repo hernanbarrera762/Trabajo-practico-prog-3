@@ -24,12 +24,26 @@ body {
     width: 100%;
 }
 
-.imgtiktok img, .giftiktok img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    display: block;
+.contenedortres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
+
+.giftiktok img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-left: 200px;
+}
+.imgtiktok img {
+    width: 100%;
+    height: auto;
+    margin-right: 100px;
+}  
 
 
 .Volver {
