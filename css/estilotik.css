@@ -26,9 +26,11 @@ body {
 
 .imgtiktok img, .giftiktok img {
     width: 100%;
+    max-width: 400px;
     height: auto;
     display: block;
 }
+
 
 .Volver {
     color: antiquewhite;
